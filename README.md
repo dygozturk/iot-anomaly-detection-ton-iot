@@ -49,7 +49,7 @@ The scripts assume columns like:
 ```
 ssb-ton-iot-anomaly-detection/
 ├─ data/
-│  └─ IoT_Fridge.csv              # (not committed)
+│  └─ IoT_Fridge.csv              
 ├─ models/
 │  ├─ SSB_DNN_Modeli.py
 │  ├─ SSB_CNN_Modeli.py
@@ -97,22 +97,6 @@ Example:
 ```bash
 python models/SSB_DNN_Modeli.py
 ```
-
----
-
-## Important Fix (Absolute Path → Relative Path)
-
-If a script contains something like:
-```python
-pd.read_csv("C:\\Users\\Lenovo\\Desktop\\...\\IoT_Fridge.csv")
-```
-
-Change it to:
-```python
-pd.read_csv("data/IoT_Fridge.csv")
-```
-
----
 
 ## Results & Reporting
 Most scripts print:
