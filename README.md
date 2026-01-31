@@ -111,4 +111,4 @@ If you want, we can also add:
 ---
 
 ## License
-For academic / portfolio use. If you include TON_IoT references, keep dataset/source attribution in your report/README.
+For academic / portfolio use. If you include TON_IoT references, keep dataset/source attribution in your report/README..
